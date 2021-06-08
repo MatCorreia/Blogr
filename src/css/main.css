@@ -40,6 +40,9 @@ header {
   .top-header span {
     color: white; }
 
+.dropdown-toggler {
+  cursor: pointer; }
+
 .navbar-toggler-icon .collapses {
   color: white; }
 
