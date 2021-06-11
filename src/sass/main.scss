@@ -36,6 +36,7 @@ $veryDarkDesaturatedBlue: hsl(237, 23%, 32%);
 body {
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
 }
 
 h1,
@@ -185,9 +186,20 @@ header {
 }
 
 @media (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .container {
         text-align: center;
+        padding: 0 15px;
     }
+
+    .row {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
     .bg-designed {
         text-align: center;
         padding-bottom: 250px;
@@ -224,11 +236,11 @@ header {
         }
     }
     .btn-learn {
-        padding: 10px 100px;
+        padding: 10px 80px;
     }
     
     .btn-free {
-        padding: 10px 95px;
+        padding: 10px 75px;
         background-color: transparent;
         font-weight: 700;
         color: $white;
